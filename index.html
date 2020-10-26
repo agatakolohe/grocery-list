@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <title>Grocery List</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>What do I need from the store?</h1>
+      <form id="grocerylist">
+        <label for="item">Stuff</label>
+        <input type="text" id="item" class="form-control" />
+        <button type="submit" class="btn">Add to list</button>
+      </form>
+      <ul id="output"></ul>
+      <button type="click" id="resort-list">Show me my final list</button>
+      <ul id="final-list"></ul>
+    </div>
+  </body>
+</html>
